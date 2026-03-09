@@ -26,24 +26,26 @@
     <div class="img_box">
       <img src="./img/Group 206.png" alt="인덱스배경" />
       <p class="sub_title">INDEX</p>
+  
       <div class="text_box">
         <ul>
           <li>Portfoilo</li>
-          <li>About</li>
-          <li>Work</li>
-          <li>Design</li>
+          <li class="scroll-link" data-target="about">About</li>
+          <li class="scroll-link" data-target="work">Work</li>
+          <li class="scroll-link" data-target="design">Design</li>
         </ul>
       </div>
+  
       <div class="folder_box">
-        <div>
+        <div class="scroll-link" data-target="about">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>About</p>
         </div>
-        <div>
+        <div class="scroll-link" data-target="work">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>Work</p>
         </div>
-        <div>
+        <div class="scroll-link" data-target="design">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>Design</p>
         </div>
@@ -52,22 +54,22 @@
   </div>
   <!-- 인덱스끝 -->
 
-  <div class="about">
+  <div class="about" id="about">
     <div class="img_box">
       <img src="./img/Group 206.png" alt="인덱스배경" />
       <p class="sub_title">ABOUT</p>
       <div class="text_box">
         <ul>
           <li>Portfoilo</li>
-          <li>About</li>
-          <li>Work</li>
-          <li>Design</li>
+          <li class="section-link" data-target="about">About</li>
+          <li class="section-link" data-target="work">Work</li>
+          <li class="section-link" data-target="design">Design</li>
         </ul>
       </div>
       <div class="content">
         <div class="left">
           <div class="my_img">
-            <!-- <img src="" alt=""/> -->
+            <img src="./img/my_img.jpg" alt="증명사진"/>
           </div>
           <div class="my_text">
             <ul>
@@ -168,34 +170,40 @@
   </div>
   <!-- 어바웃끝 -->
 
-  <div class="work">
-    <div class="project conetkor">
+  <div class="work" id="work">
+    <div class="project conetkor" id="conetkor">
       <div class="left">
-        <div class="name">
+        <div class="name scroll-link" data-target="conetkor">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>커넥트코</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="no1welchon">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>으뜸촌</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="modam">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>모담</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="qvent">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>큐벤트</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent01">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트01</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent02">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트02</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="what2eat">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘뭐먹지</p>
         </div>
@@ -207,9 +215,9 @@
           <div class="text_box">
             <ul>
               <li>Portfoilo</li>
-              <li>About</li>
-              <li>Work</li>
-              <li>Design</li>
+              <li class="section-link" data-target="about">About</li>
+              <li class="section-link" data-target="work">Work</li>
+              <li class="section-link" data-target="design">Design</li>
             </ul>
           </div>
           <div class="inner">
@@ -245,40 +253,46 @@
               </a>
             </div>
             <div class="ex_img">
-              <!-- <img src="" alt=""/> -->
+              <img src="./img/커넥트코.png" alt="스크린샷"/>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- 커넥트코끝 -->
-    <div class="project no1welchon">
+    <div class="project no1welchon" id="no1welchon">
       <div class="left">
-        <div class="name">
+        <div class="name scroll-link" data-target="conetkor">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>커넥트코</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="no1welchon">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>으뜸촌</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="modam">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>모담</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="qvent">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>큐벤트</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent01">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트01</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent02">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트02</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="what2eat">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘뭐먹지</p>
         </div>
@@ -290,9 +304,9 @@
           <div class="text_box">
             <ul>
               <li>Portfoilo</li>
-              <li>About</li>
-              <li>Work</li>
-              <li>Design</li>
+              <li class="section-link" data-target="about">About</li>
+              <li class="section-link" data-target="work">Work</li>
+              <li class="section-link" data-target="design">Design</li>
             </ul>
           </div>
           <div class="inner">
@@ -328,40 +342,46 @@
               </a>
             </div>
             <div class="ex_img">
-              <!-- <img src="" alt=""/> -->
+              <img src="./img/으뜸촌.png" alt="스크린샷"/>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- 으뜸촌끝 -->
-    <div class="project modam">
+    <div class="project modam" id="modam">
       <div class="left">
-        <div class="name">
+        <div class="name scroll-link" data-target="conetkor">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>커넥트코</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="no1welchon">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>으뜸촌</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="modam">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>모담</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="qvent">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>큐벤트</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent01">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트01</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent02">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트02</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="what2eat">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘뭐먹지</p>
         </div>
@@ -373,9 +393,9 @@
           <div class="text_box">
             <ul>
               <li>Portfoilo</li>
-              <li>About</li>
-              <li>Work</li>
-              <li>Design</li>
+              <li class="section-link" data-target="about">About</li>
+              <li class="section-link" data-target="work">Work</li>
+              <li class="section-link" data-target="design">Design</li>
             </ul>
           </div>
           <div class="inner">
@@ -412,40 +432,46 @@
               </a>
             </div>
             <div class="ex_img">
-              <!-- <img src="" alt=""/> -->
+              <img src="./img/모담.png" alt="스크린샷"/>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- 모담끝 -->
-    <div class="project qvent">
+    <div class="project qvent" id="qvent">
       <div class="left">
-        <div class="name">
+        <div class="name scroll-link" data-target="conetkor">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>커넥트코</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="no1welchon">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>으뜸촌</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="modam">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>모담</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="qvent">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>큐벤트</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent01">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트01</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent02">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트02</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="what2eat">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘뭐먹지</p>
         </div>
@@ -457,9 +483,9 @@
           <div class="text_box">
             <ul>
               <li>Portfoilo</li>
-              <li>About</li>
-              <li>Work</li>
-              <li>Design</li>
+              <li class="section-link" data-target="about">About</li>
+              <li class="section-link" data-target="work">Work</li>
+              <li class="section-link" data-target="design">Design</li>
             </ul>
           </div>
           <div class="inner">
@@ -496,40 +522,46 @@
               </a>
             </div>
             <div class="ex_img">
-              <!-- <img src="" alt=""/> -->
+              <img src="./img/큐벤트.png" alt="스크린샷"/>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- 큐벤트끝 -->
-    <div class="project todayqvent01">
+    <div class="project todayqvent01" id="todayqvent01">
       <div class="left">
-        <div class="name">
+        <div class="name scroll-link" data-target="conetkor">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>커넥트코</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="no1welchon">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>으뜸촌</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="modam">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>모담</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="qvent">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>큐벤트</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent01">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트01</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent02">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트02</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="what2eat">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘뭐먹지</p>
         </div>
@@ -541,9 +573,9 @@
           <div class="text_box">
             <ul>
               <li>Portfoilo</li>
-              <li>About</li>
-              <li>Work</li>
-              <li>Design</li>
+              <li class="section-link" data-target="about">About</li>
+              <li class="section-link" data-target="work">Work</li>
+              <li class="section-link" data-target="design">Design</li>
             </ul>
           </div>
           <div class="inner">
@@ -565,7 +597,7 @@
                 </li>
                 <li>
                   <span>제작페이지</span>
-                  <span>자체 이벤트 페이지/span>
+                  <span>자체 이벤트 페이지</span>
                 </li>
               </ul>
             </div>
@@ -579,40 +611,46 @@
               </a>
             </div>
             <div class="ex_img">
-              <!-- <img src="" alt=""/> -->
+              <img src="./img/오늘의큐벤트01.png" alt="스크린샷"/>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- 오늘의큐벤트01끝 -->
-    <div class="project todayqvent02">
+    <div class="project todayqvent02" id="todayqvent02">
       <div class="left">
-        <div class="name">
+        <div class="name scroll-link" data-target="conetkor">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>커넥트코</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="no1welchon">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>으뜸촌</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="modam">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>모담</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="qvent">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>큐벤트</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent01">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트01</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent02">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트02</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="what2eat">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘뭐먹지</p>
         </div>
@@ -624,9 +662,9 @@
           <div class="text_box">
             <ul>
               <li>Portfoilo</li>
-              <li>About</li>
-              <li>Work</li>
-              <li>Design</li>
+              <li class="section-link" data-target="about">About</li>
+              <li class="section-link" data-target="work">Work</li>
+              <li class="section-link" data-target="design">Design</li>
             </ul>
           </div>
           <div class="inner">
@@ -648,7 +686,7 @@
                 </li>
                 <li>
                   <span>제작페이지</span>
-                  <span>자체 이벤트 페이지/span>
+                  <span>자체 이벤트 페이지</span>
                 </li>
               </ul>
             </div>
@@ -662,40 +700,46 @@
               </a>
             </div>
             <div class="ex_img">
-              <!-- <img src="" alt=""/> -->
+              <img src="./img/오늘의큐벤트02.png" alt="스크린샷"/>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- 오늘의큐벤트02끝 -->
-    <div class="project what2eat">
+    <div class="project what2eat" id="what2eat">
       <div class="left">
-        <div class="name">
+        <div class="name scroll-link" data-target="conetkor">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>커넥트코</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="no1welchon">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>으뜸촌</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="modam">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>모담</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="qvent">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>큐벤트</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent01">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트01</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="todayqvent02">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘의큐벤트02</p>
         </div>
-        <div class="name">
+    
+        <div class="name scroll-link" data-target="what2eat">
           <img src="./img/folder.png" alt="폴더이미지" />
           <p>오늘뭐먹지</p>
         </div>
@@ -707,9 +751,9 @@
           <div class="text_box">
             <ul>
               <li>Portfoilo</li>
-              <li>About</li>
-              <li>Work</li>
-              <li>Design</li>
+              <li class="section-link" data-target="about">About</li>
+              <li class="section-link" data-target="work">Work</li>
+              <li class="section-link" data-target="design">Design</li>
             </ul>
           </div>
           <div class="inner">
@@ -746,7 +790,7 @@
               </a> -->
             </div>
             <div class="ex_img">
-              <!-- <img src="" alt=""/> -->
+              <img src="./img/오늘뭐먹지.png" alt="스크린샷"/>
             </div>
           </div>
         </div>
@@ -756,16 +800,16 @@
   </div>
   <!-- 워크끝 -->
 
-  <div class="design">
+  <div class="design" id="design">
     <div class="img_box">
       <img src="./img/Group 206.png" alt="인덱스배경" />
       <p class="sub_title">DESIGN</p>
       <div class="text_box">
         <ul>
           <li>Portfoilo</li>
-          <li>About</li>
-          <li>Work</li>
-          <li>Design</li>
+          <li class="section-link" data-target="about">About</li>
+          <li class="section-link" data-target="work">Work</li>
+          <li class="section-link" data-target="design">Design</li>
         </ul>
       </div>
       <div class="folder_box">
