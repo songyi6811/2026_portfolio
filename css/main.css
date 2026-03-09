@@ -86,6 +86,15 @@ body {
   background-color: #ECF4FB;
 }
 
+.scroll-link {
+  cursor: pointer;
+}
+
+.folder_box .scroll-link img,
+.folder_box .scroll-link p {
+  pointer-events: none;
+}
+
 /* 메인페이지 */
 .main {
     height: 100vh;            
@@ -284,10 +293,16 @@ body {
 }
 
 .about .my_img {
-  width: 250px;
+  width: 200px;
   height: 250px;
   background-color: #eee;
-  border-radius: 9999px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .my_img img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .about .my_text {
@@ -461,12 +476,21 @@ body {
 }
 
 .work .right .ex_img {
+  position: relative;
   width: 700px;
   height: 150px;
   background-color: #eee;
-  margin-top: 30px;
+  margin: 30px auto 0;
   border-radius: 15px;
   overflow: hidden;
+}
+
+.work .right .ex_img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: translateY(0);
+  will-change: transform;
 }
 
 .work .project {
@@ -500,6 +524,10 @@ body {
 }
 
 .work .project.conetkor .left .name:first-child {
+  font-weight: 600;
+}
+
+.work .project.no1welchon .left .name:nth-child(2) {
   font-weight: 600;
 }
 
